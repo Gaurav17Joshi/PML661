@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>67de37ea151946468ba00f548621d79b</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="assignment-1" class="cell markdown">
+<h1>Assignment 1</h1>
+</section>
+<div class="cell code" data-execution_count="39">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Importing Dependencies</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>sns.set_style(<span class="st">&#39;whitegrid&#39;</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.distributions <span class="im">as</span> dist</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<hr />
+<h3 id="q1">Q1</h3>
+<p>Optimise the following function using torch autograd and gradient
+descent, f(θ) = (θ₀ - 2)² + (θ₁ - 3)². In addition to finding the
+optima, you need to show the convergence plots. [0.5 marks]</p>
+</div>
+<div class="cell code" data-execution_count="53">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Defining the function to be optimized</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> loss_fun(x):</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (x[<span class="dv">0</span>]<span class="op">-</span><span class="dv">2</span>)<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> (x[<span class="dv">1</span>]<span class="op">-</span><span class="dv">3</span>)<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># The varaiable tensor, whose operations are to be stored, (initial value set to be (-1,-1.5))</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> torch.tensor([<span class="op">-</span><span class="fl">1.0</span>, <span class="op">-</span><span class="fl">1.5</span>], requires_grad<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Gradient Descent Hyperparameters</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>num_iterations <span class="op">=</span> <span class="dv">30</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>learning_rate <span class="op">=</span> <span class="fl">0.1</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>xs <span class="op">=</span> []</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>losses <span class="op">=</span> []</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Gradient Descent</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(num_iterations):</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    loss <span class="op">=</span> loss_fun(x)</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="co"># We want to calculate the gradient of loss scalar with respect to all tensors with requires_grad=True.</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    loss.backward()</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    xs.append(x.detach().numpy().copy()) <span class="co"># Cannot, convert a grad tensor to numpy directly</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    losses.append(loss.item())           <span class="co"># Gives the direct value</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Gradient Descent Step, Could have use torch.no_grad() as well</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    x.data <span class="op">=</span> x.data <span class="op">-</span> learning_rate <span class="op">*</span> x.grad</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Manually zero the gradients after updating weights, (otherwise they accumulate)</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>    x.grad.zero_()</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the loss curve</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">12</span>,<span class="dv">4</span>))</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].plot(losses, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>, color <span class="op">=</span> <span class="st">&#39;red&#39;</span>)</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_xlabel(<span class="st">&#39;Iteration&#39;</span>)</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_ylabel(<span class="st">&#39;Loss&#39;</span>)</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_title(<span class="st">&#39;Loss Convergence&#39;</span>)</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the path taken by theta during optimization</span></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].plot([x[<span class="dv">0</span>] <span class="cf">for</span> x <span class="kw">in</span> xs], marker<span class="op">=</span><span class="st">&#39;o&#39;</span>, color <span class="op">=</span> <span class="st">&quot;green&quot;</span>, label <span class="op">=</span> <span class="st">&quot;x0&quot;</span>)</span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].plot([x[<span class="dv">1</span>] <span class="cf">for</span> x <span class="kw">in</span> xs], marker<span class="op">=</span><span class="st">&#39;o&#39;</span>, color <span class="op">=</span> <span class="st">&quot;blue&quot;</span>, label <span class="op">=</span> <span class="st">&quot;x1&quot;</span>)</span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].hlines(<span class="dv">2</span>, <span class="dv">0</span>, <span class="bu">len</span>(xs), color <span class="op">=</span> <span class="st">&quot;green&quot;</span>, linestyle <span class="op">=</span> <span class="st">&quot;dashed&quot;</span>, label <span class="op">=</span> <span class="st">&quot;x0 = 2&quot;</span>)</span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].hlines(<span class="dv">3</span>, <span class="dv">0</span>, <span class="bu">len</span>(xs), color <span class="op">=</span> <span class="st">&quot;blue&quot;</span>, linestyle <span class="op">=</span> <span class="st">&quot;dashed&quot;</span>, label <span class="op">=</span> <span class="st">&quot;x1 = 3&quot;</span>)</span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].legend()</span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a><span class="co"># ax[1].set_xlabel(&#39;x0&#39;)</span></span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a><span class="co"># ax[1].set_ylabel(&#39;x1&#39;)</span></span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_title(<span class="st">&#39;Convergence Plot&#39;</span>)</span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ed9ae950cb784350ac0b48e74432e2f2/0fb71c3e7026a6a66c2dd8b84a2da9e496abe695.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Optima: &quot;</span>,x)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Final Loss; &quot;</span>, <span class="st">&quot;</span><span class="sc">{:.5f}</span><span class="st">&quot;</span>.<span class="bu">format</span>(loss.item()))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Optima:  tensor([1.9654, 2.9481], requires_grad=True)
+Final Loss;  0.00607
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>TODO: Make a 2-D contour plot with the convergence points (can also
+add a slider for iterations or lr)</p>
+</div>
+<div class="cell markdown">
+<hr />
+<h3 id="q2">Q2</h3>
+<p>Generate some data (100 data points) using a univariate Normal
+distribution with loc=2.0 and scale=4.0.</p>
+<p>a) Plot a 2d contour plot showing the Likelihood or the
+Log-Likelihood as a function of loc and scale. Please label all the axes
+including the colorbar. [1 mark]</p>
+<p>b) Find the MLE parameters for the loc and scale using gradient
+descent. Plot convergence plot as well. [1 mark]</p>
+<p>c) Redo the above question but learn log(scale) instead of scale and
+then finally transform to learn scale. What can you conclude? Why is
+this transformation useful? [0.5 mark]</p>
+</div>
+<div class="cell code" data-execution_count="55">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>torch.manual_seed(<span class="dv">17</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Generating data from a univariate Normal Distribution</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>true_loc <span class="op">=</span> <span class="fl">2.0</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>true_scale <span class="op">=</span> <span class="fl">4.0</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>true_dist <span class="op">=</span> dist.Normal(true_loc, true_scale)</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>true_samples <span class="op">=</span> true_dist.sample((<span class="dv">100</span>,))</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>ax.hist(true_samples.numpy(),density<span class="op">=</span><span class="va">True</span>, color <span class="op">=</span> <span class="st">&quot;green&quot;</span>, alpha <span class="op">=</span> <span class="fl">0.5</span>, label <span class="op">=</span> <span class="st">&quot;Histogram&quot;</span>)</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>sns.kdeplot(true_samples.numpy(), bw_adjust<span class="op">=</span><span class="fl">2.0</span>, fill<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>ax, label <span class="op">=</span> <span class="st">&quot;Kde plot&quot;</span>)</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">&quot;Histogram and KDE plot of the true distribution&quot;</span>)</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">&quot;Sample Value&quot;</span>)</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="co">## Sample mean and variance MLE</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>mean_mle <span class="op">=</span> np.mean(true_samples.numpy())</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>std_mle <span class="op">=</span> np.std(true_samples.numpy())</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>ax.vlines(mean_mle, ymin <span class="op">=</span> <span class="fl">0.0</span>, ymax <span class="op">=</span> <span class="fl">0.16</span>, color<span class="op">=</span><span class="st">&quot;red&quot;</span>, linestyle <span class="op">=</span> <span class="st">&quot;--&quot;</span>, label<span class="op">=</span><span class="st">&quot;Sample mean&quot;</span>)</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;MLE of mean: &quot;</span>, mean_mle, <span class="st">&quot; MLE of std: &quot;</span>, std_mle)</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>ax.legend()</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>MLE of mean:  2.9060876  MLE of std:  3.5198097
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ed9ae950cb784350ac0b48e74432e2f2/e1e4c7303ed733f1770042ae24a24c8c124c02f3.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="43">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Likelihood function for normally distributed data</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> likelihood(data, loc, scale):</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    dist <span class="op">=</span> torch.distributions.Normal(loc, scale)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> dist.log_prob(data).<span class="bu">sum</span>().exp()</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> log_likelihood(data, loc, scale):</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    dist <span class="op">=</span> torch.distributions.Normal(loc, scale)</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># return dist.log_prob(data).mean()</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> dist.log_prob(data).mean()</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating a grid of loc and scale values</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>loc_range <span class="op">=</span> torch.linspace(<span class="dv">0</span>, <span class="dv">4</span>, <span class="dv">100</span>)</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>scale_range <span class="op">=</span> torch.linspace(<span class="fl">1.0</span>, <span class="dv">8</span>, <span class="dv">100</span>)</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_cp(loc_range, scale_range):</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>    loc_grid, scale_grid <span class="op">=</span> torch.meshgrid(loc_range, scale_range)</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Calculate the log-likelihood and likelihood values on the grid</span></span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>    log_likelihood_grid <span class="op">=</span> torch.zeros_like(loc_grid)</span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>    likelihood_grid <span class="op">=</span> torch.zeros_like(loc_grid)</span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(loc_range)):</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(scale_range)):</span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>            log_likelihood_grid[i, j] <span class="op">=</span> log_likelihood(true_samples, loc_grid[i, j], scale_grid[i, j])</span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>            likelihood_grid[i, j] <span class="op">=</span> likelihood(true_samples, loc_grid[i, j], scale_grid[i, j])</span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plot the contour plot of the log-likelihood</span></span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a>    fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">5</span>))</span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>    contour <span class="op">=</span> ax[<span class="dv">0</span>].contourf(loc_grid, scale_grid, log_likelihood_grid, levels<span class="op">=</span><span class="dv">20</span>, cmap<span class="op">=</span><span class="st">&#39;viridis&#39;</span>)</span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>    mean_contour <span class="op">=</span> ax[<span class="dv">1</span>].contourf(loc_grid, scale_grid, likelihood_grid, levels<span class="op">=</span><span class="dv">20</span>, cmap<span class="op">=</span><span class="st">&#39;viridis&#39;</span>)</span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Markers</span></span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>].plot(true_loc, true_scale, <span class="st">&#39;r*&#39;</span>, markersize<span class="op">=</span><span class="dv">15</span>, label <span class="op">=</span> <span class="st">&quot;true&quot;</span>)<span class="op">;</span> </span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">1</span>].plot(true_loc, true_scale, <span class="st">&#39;r*&#39;</span>, markersize<span class="op">=</span><span class="dv">15</span>, label <span class="op">=</span> <span class="st">&quot;true&quot;</span>)</span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>].plot(mean_mle, std_mle, <span class="st">&#39;w*&#39;</span>, markersize<span class="op">=</span><span class="dv">15</span>, label <span class="op">=</span> <span class="st">&quot;mle&quot;</span>)<span class="op">;</span> </span>
+<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">1</span>].plot(mean_mle, std_mle, <span class="st">&#39;w*&#39;</span>, markersize<span class="op">=</span><span class="dv">15</span>, label <span class="op">=</span> <span class="st">&quot;mle&quot;</span>)</span>
+<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Contours</span></span>
+<span id="cb7-35"><a href="#cb7-35" aria-hidden="true" tabindex="-1"></a>    plt.colorbar(contour, label<span class="op">=</span><span class="st">&#39;Log-Likelihood&#39;</span>)</span>
+<span id="cb7-36"><a href="#cb7-36" aria-hidden="true" tabindex="-1"></a>    plt.colorbar(mean_contour, label<span class="op">=</span><span class="st">&#39;Likelihood&#39;</span>)</span>
+<span id="cb7-37"><a href="#cb7-37" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Labels</span></span>
+<span id="cb7-38"><a href="#cb7-38" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>].set_xlabel(<span class="st">&#39;loc&#39;</span>)<span class="op">;</span> ax[<span class="dv">1</span>].set_xlabel(<span class="st">&#39;loc&#39;</span>)</span>
+<span id="cb7-39"><a href="#cb7-39" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>].set_ylabel(<span class="st">&#39;scale&#39;</span>)<span class="op">;</span> ax[<span class="dv">1</span>].set_ylabel(<span class="st">&#39;scale&#39;</span>)</span>
+<span id="cb7-40"><a href="#cb7-40" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>].set_title(<span class="st">&#39;Contour Plot of Log-Likelihood&#39;</span>)</span>
+<span id="cb7-41"><a href="#cb7-41" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">1</span>].set_title(<span class="st">&#39;Contour Plot of Likelihood&#39;</span>)</span>
+<span id="cb7-42"><a href="#cb7-42" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>].legend()<span class="op">;</span> ax[<span class="dv">1</span>].legend()</span>
+<span id="cb7-43"><a href="#cb7-43" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+</div>
+<section id="a-contour-plot" class="cell markdown">
+<h3>a) Contour Plot</h3>
+</section>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating a grid of loc and scale values</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>loc_range <span class="op">=</span> torch.linspace(<span class="dv">0</span>, <span class="dv">4</span>, <span class="dv">100</span>)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>scale_range <span class="op">=</span> torch.linspace(<span class="fl">1.0</span>, <span class="dv">8</span>, <span class="dv">100</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>plot_cp(loc_range, scale_range)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ed9ae950cb784350ac0b48e74432e2f2/2688d62b7bf34d4b5b7087a427da5c35dda72444.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating a grid of loc and scale values</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>loc_range <span class="op">=</span> torch.linspace(<span class="fl">1.5</span>, <span class="fl">4.5</span>, <span class="dv">100</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>scale_range <span class="op">=</span> torch.linspace(<span class="fl">2.5</span>, <span class="fl">4.5</span>, <span class="dv">100</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>plot_cp(loc_range, scale_range)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ed9ae950cb784350ac0b48e74432e2f2/fa6134740243974e840c122f09223cf68f253685.png" /></p>
+</div>
+</div>
+<section id="b-gradient-descent-conclusions" class="cell markdown">
+<h3>b) Gradient Descent Conclusions</h3>
+<p>We used a learing rate of 0.1 initially but the loss was not
+decreasing. So we reduced the learning rate to 0.01 and the loss started
+decreasing. We also tried with 0.001 but the loss was decreasing very
+slowly. So we decided to go with 0.01 as the learning rate.</p>
+<p>We used a learing rate fo 0.1 initially, but the parameter has a big
+jump (as the inital point (0.0, 0.5) is of high gradient), then it moved
+so far away that the gradients dropped to zero.</p>
+<p>So, we reduced the learining rate to 0.005, and the parameter moved
+slowly, and the loss decreased, but it was not converging to the
+expected value, as the gradients had grown very small (at high scales
+(&gt;3), the log_likelihood becomes very similar). Thus the convergence
+became very slow.</p>
+<p>One way to solve this is to use multiple starting points, but it
+still does not mitigate the problem of slow convergence due to low
+values of gradients.</p>
+</section>
+<div class="cell code" data-execution_count="56">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Defining the function to be optimized</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> true_samples</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> loss_fun(x):</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    dist <span class="op">=</span> torch.distributions.Normal(loc <span class="op">=</span> x[<span class="dv">0</span>], scale <span class="op">=</span> x[<span class="dv">1</span>])</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># return -dist.log_prob(data).mean()</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="op">-</span>dist.log_prob(data).mean()</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="co"># The varaiable tensor, whose operations are to be stored</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> torch.tensor([<span class="fl">0.0</span>, <span class="fl">0.5</span>])</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> optimiser(loss_fun, x_init, learning_rate, num_iterations):</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>    xs <span class="op">=</span> []</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>    losses <span class="op">=</span> []</span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> x_init.clone().requires_grad_(<span class="va">True</span>)</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(num_iterations):</span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>        loss <span class="op">=</span> loss_fun(x)</span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>        loss.backward()</span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>        xs.append(x.detach().numpy().copy())</span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>        losses.append(loss.item())</span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>        x.data <span class="op">=</span> x.data <span class="op">-</span> learning_rate <span class="op">*</span> x.grad</span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>        x.grad.zero_()</span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> xs, losses</span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_path(lr1, lr2, num1, num2, x_start, loss_fun<span class="op">=</span> loss_fun,marker <span class="op">=</span> <span class="va">None</span>,loc_range <span class="op">=</span> <span class="va">None</span>, scale_range <span class="op">=</span> <span class="va">None</span>):</span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a>    xs, losses <span class="op">=</span> optimiser(loss_fun, x_init <span class="op">=</span> x_start, learning_rate <span class="op">=</span> lr1, num_iterations <span class="op">=</span> num1)</span>
+<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a>    xs2, losses2 <span class="op">=</span> optimiser(loss_fun, x_init <span class="op">=</span> x_start, learning_rate <span class="op">=</span> lr2, num_iterations <span class="op">=</span> num2)</span>
+<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> loc_range <span class="op">==</span> <span class="va">None</span>:</span>
+<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a>        loc_range <span class="op">=</span> torch.linspace(<span class="dv">0</span>, <span class="dv">4</span>, <span class="dv">100</span>)</span>
+<span id="cb10-30"><a href="#cb10-30" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> scale_range <span class="op">==</span> <span class="va">None</span>:</span>
+<span id="cb10-31"><a href="#cb10-31" aria-hidden="true" tabindex="-1"></a>        scale_range <span class="op">=</span> torch.linspace(<span class="fl">0.5</span>, <span class="dv">18</span>, <span class="dv">100</span>)</span>
+<span id="cb10-32"><a href="#cb10-32" aria-hidden="true" tabindex="-1"></a>    loc_grid, scale_grid <span class="op">=</span> torch.meshgrid(loc_range, scale_range)</span>
+<span id="cb10-33"><a href="#cb10-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-34"><a href="#cb10-34" aria-hidden="true" tabindex="-1"></a>    log_likelihood_grid <span class="op">=</span> torch.zeros_like(loc_grid)</span>
+<span id="cb10-35"><a href="#cb10-35" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(loc_range)):</span>
+<span id="cb10-36"><a href="#cb10-36" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(scale_range)):</span>
+<span id="cb10-37"><a href="#cb10-37" aria-hidden="true" tabindex="-1"></a>            log_likelihood_grid[i, j] <span class="op">=</span> log_likelihood(true_samples, loc_grid[i, j], scale_grid[i, j])</span>
+<span id="cb10-38"><a href="#cb10-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-39"><a href="#cb10-39" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plotting the loss curve</span></span>
+<span id="cb10-40"><a href="#cb10-40" aria-hidden="true" tabindex="-1"></a>    fig, ax <span class="op">=</span> plt.subplots(<span class="dv">2</span>,<span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">12</span>,<span class="dv">8</span>))</span>
+<span id="cb10-41"><a href="#cb10-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-42"><a href="#cb10-42" aria-hidden="true" tabindex="-1"></a>    contour <span class="op">=</span> ax[<span class="dv">0</span>,<span class="dv">0</span>].contourf(loc_grid, scale_grid, log_likelihood_grid, levels<span class="op">=</span><span class="dv">20</span>, cmap<span class="op">=</span><span class="st">&#39;viridis&#39;</span>)</span>
+<span id="cb10-43"><a href="#cb10-43" aria-hidden="true" tabindex="-1"></a>    contour2 <span class="op">=</span> ax[<span class="dv">0</span>,<span class="dv">1</span>].contourf(loc_grid, scale_grid, log_likelihood_grid, levels<span class="op">=</span><span class="dv">20</span>, cmap<span class="op">=</span><span class="st">&#39;viridis&#39;</span>)</span>
+<span id="cb10-44"><a href="#cb10-44" aria-hidden="true" tabindex="-1"></a>    plt.colorbar(contour, label<span class="op">=</span><span class="st">&#39;Log-Likelihood&#39;</span>)</span>
+<span id="cb10-45"><a href="#cb10-45" aria-hidden="true" tabindex="-1"></a>    plt.colorbar(contour2, label<span class="op">=</span><span class="st">&#39;Log-Likelihood&#39;</span>)</span>
+<span id="cb10-46"><a href="#cb10-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-47"><a href="#cb10-47" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plotting the path taken by theta during optimization</span></span>
+<span id="cb10-48"><a href="#cb10-48" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">0</span>].plot([x[<span class="dv">0</span>] <span class="cf">for</span> x <span class="kw">in</span> xs], [x[<span class="dv">1</span>] <span class="cf">for</span> x <span class="kw">in</span> xs], marker<span class="op">=</span><span class="st">&#39;o&#39;</span>, markersize<span class="op">=</span><span class="dv">5</span>, color <span class="op">=</span> <span class="st">&quot;red&quot;</span>)</span>
+<span id="cb10-49"><a href="#cb10-49" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">1</span>].plot([x[<span class="dv">0</span>] <span class="cf">for</span> x <span class="kw">in</span> xs2], [x[<span class="dv">1</span>] <span class="cf">for</span> x <span class="kw">in</span> xs2], marker<span class="op">=</span><span class="st">&#39;o&#39;</span>, markersize<span class="op">=</span><span class="dv">5</span>, color <span class="op">=</span> <span class="st">&quot;red&quot;</span>)</span>
+<span id="cb10-50"><a href="#cb10-50" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">0</span>].set_xlabel(<span class="st">&#39;loc&#39;</span>)<span class="op">;</span> ax[<span class="dv">0</span>,<span class="dv">1</span>].set_xlabel(<span class="st">&#39;loc&#39;</span>)</span>
+<span id="cb10-51"><a href="#cb10-51" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">0</span>].set_ylabel(<span class="st">&#39;scale&#39;</span>)<span class="op">;</span> ax[<span class="dv">0</span>,<span class="dv">1</span>].set_ylabel(<span class="st">&#39;scale&#39;</span>)</span>
+<span id="cb10-52"><a href="#cb10-52" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">0</span>].set_title(<span class="st">&#39;Optimisation path for lr = &#39;</span><span class="op">+</span> <span class="bu">str</span>(lr1))<span class="op">;</span> ax[<span class="dv">0</span>,<span class="dv">1</span>].set_title(<span class="st">&#39;Optimisation path for lr = &#39;</span><span class="op">+</span> <span class="bu">str</span>(lr2))</span>
+<span id="cb10-53"><a href="#cb10-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-54"><a href="#cb10-54" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Markers</span></span>
+<span id="cb10-55"><a href="#cb10-55" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">0</span>].plot(true_loc, true_scale, <span class="st">&#39;b*&#39;</span>, markersize<span class="op">=</span><span class="dv">10</span>, label <span class="op">=</span> <span class="st">&quot;true&quot;</span>)<span class="op">;</span> </span>
+<span id="cb10-56"><a href="#cb10-56" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">1</span>].plot(true_loc, true_scale, <span class="st">&#39;b*&#39;</span>, markersize<span class="op">=</span><span class="dv">10</span>, label <span class="op">=</span> <span class="st">&quot;true&quot;</span>)</span>
+<span id="cb10-57"><a href="#cb10-57" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">0</span>].plot(mean_mle, std_mle, <span class="st">&#39;w*&#39;</span>, markersize<span class="op">=</span><span class="dv">10</span>, label <span class="op">=</span> <span class="st">&quot;mle&quot;</span>)<span class="op">;</span> ax[<span class="dv">0</span>,<span class="dv">0</span>].legend()</span>
+<span id="cb10-58"><a href="#cb10-58" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">1</span>].plot(mean_mle, std_mle, <span class="st">&#39;w*&#39;</span>, markersize<span class="op">=</span><span class="dv">10</span>, label <span class="op">=</span> <span class="st">&quot;mle&quot;</span>)<span class="op">;</span> ax[<span class="dv">1</span>,<span class="dv">0</span>].legend()</span>
+<span id="cb10-59"><a href="#cb10-59" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plotting the loss curve</span></span>
+<span id="cb10-60"><a href="#cb10-60" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">1</span>,<span class="dv">0</span>].plot(losses, marker<span class="op">=</span>marker, color <span class="op">=</span> <span class="st">&quot;blue&quot;</span>)</span>
+<span id="cb10-61"><a href="#cb10-61" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">1</span>,<span class="dv">0</span>].set_xlabel(<span class="st">&#39;Iteration&#39;</span>)</span>
+<span id="cb10-62"><a href="#cb10-62" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">1</span>,<span class="dv">0</span>].set_ylabel(<span class="st">&#39;Loss&#39;</span>)</span>
+<span id="cb10-63"><a href="#cb10-63" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">1</span>,<span class="dv">1</span>].plot(losses2, marker<span class="op">=</span>marker, color <span class="op">=</span> <span class="st">&quot;blue&quot;</span>)</span>
+<span id="cb10-64"><a href="#cb10-64" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">1</span>,<span class="dv">1</span>].set_xlabel(<span class="st">&#39;Iteration&#39;</span>)</span>
+<span id="cb10-65"><a href="#cb10-65" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">1</span>,<span class="dv">1</span>].set_ylabel(<span class="st">&#39;Loss&#39;</span>)</span>
+<span id="cb10-66"><a href="#cb10-66" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> torch.tensor([<span class="fl">0.0</span>, <span class="fl">0.5</span>])</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="co"># x = torch.tensor([0.0, 4.0])</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># x = torch.tensor([1.5, 8.0])</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>plot_path(lr1<span class="op">=</span> <span class="fl">1e-1</span>, lr2 <span class="op">=</span> <span class="fl">5e-3</span>, num1 <span class="op">=</span> <span class="dv">400</span>, num2 <span class="op">=</span> <span class="dv">400</span>, x_start <span class="op">=</span> x, marker <span class="op">=</span> <span class="va">None</span>,loc_range <span class="op">=</span> <span class="va">None</span>, scale_range <span class="op">=</span> <span class="va">None</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ed9ae950cb784350ac0b48e74432e2f2/1d401f3343a9b87c1c214600bc2b31d1070a5bce.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="81">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Multiple learning rates and 20 iterations</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>lrs <span class="op">=</span> [<span class="fl">1e-1</span>, <span class="fl">5e-2</span>, <span class="fl">2e-2</span>, <span class="fl">1e-2</span>, <span class="fl">5e-3</span>, <span class="fl">2e-3</span>, <span class="fl">1e-3</span>, <span class="fl">5e-4</span>,]</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>num_iters <span class="op">=</span> [<span class="dv">20</span>, <span class="dv">20</span>, <span class="dv">20</span>, <span class="dv">20</span>, <span class="dv">40</span>, <span class="dv">40</span>, <span class="dv">40</span>, <span class="dv">40</span>,]</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>dic <span class="op">=</span> {}</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> lr, num_iter <span class="kw">in</span> <span class="bu">zip</span>(lrs, num_iters):</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> torch.tensor([<span class="fl">0.0</span>, <span class="fl">0.5</span>])</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># x = torch.tensor([0.5, 4.0])</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    xs, losses <span class="op">=</span> optimiser(loss_fun, x, learning_rate <span class="op">=</span> lr, num_iterations <span class="op">=</span> num_iter)</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    dic[lr] <span class="op">=</span> (xs[<span class="op">-</span><span class="dv">1</span>][<span class="dv">0</span>], xs[<span class="op">-</span><span class="dv">1</span>][<span class="dv">1</span>], losses[<span class="op">-</span><span class="dv">1</span>])</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> pd.DataFrame.from_dict(dic, orient<span class="op">=</span><span class="st">&#39;index&#39;</span>, columns<span class="op">=</span>[<span class="st">&#39;Opt loc&#39;</span>,<span class="st">&#39;Opt scale&#39;</span>, <span class="st">&#39;loss&#39;</span>])</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>results</span></code></pre></div>
+<div class="output execute_result" data-execution_count="81">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Opt loc</th>
+      <th>Opt scale</th>
+      <th>loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0.1000</th>
+      <td>1.173366</td>
+      <td>16.866873</td>
+      <td>3.771341</td>
+    </tr>
+    <tr>
+      <th>0.0500</th>
+      <td>0.608730</td>
+      <td>8.654540</td>
+      <td>3.194958</td>
+    </tr>
+    <tr>
+      <th>0.0200</th>
+      <td>0.298061</td>
+      <td>3.825205</td>
+      <td>2.916326</td>
+    </tr>
+    <tr>
+      <th>0.0100</th>
+      <td>0.212867</td>
+      <td>2.377896</td>
+      <td>3.522079</td>
+    </tr>
+    <tr>
+      <th>0.0050</th>
+      <td>0.239484</td>
+      <td>2.003952</td>
+      <td>4.041936</td>
+    </tr>
+    <tr>
+      <th>0.0020</th>
+      <td>0.157784</td>
+      <td>1.580810</td>
+      <td>5.366981</td>
+    </tr>
+    <tr>
+      <th>0.0010</th>
+      <td>0.109147</td>
+      <td>1.337221</td>
+      <td>6.861138</td>
+    </tr>
+    <tr>
+      <th>0.0005</th>
+      <td>0.073445</td>
+      <td>1.133616</td>
+      <td>8.986595</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="123">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> torch.tensor([<span class="fl">0.1</span>, <span class="fl">2.5</span>])</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>xs, losses <span class="op">=</span> optimiser(loss_fun, x, learning_rate <span class="op">=</span> <span class="fl">0.020</span>, num_iterations <span class="op">=</span> <span class="dv">400</span>)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>( <span class="st">&quot;The final estimate for lr = 0.02: &quot;</span> ,xs[<span class="op">-</span><span class="dv">1</span>], <span class="st">&quot;with final loss: &quot;</span>, [losses[<span class="op">-</span><span class="dv">1</span>]])</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>xs, losses <span class="op">=</span> optimiser(loss_fun, x, learning_rate <span class="op">=</span> <span class="fl">0.100</span>, num_iterations <span class="op">=</span> <span class="dv">400</span>)</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>( <span class="st">&quot;The final estimate for lr = 0.1: &quot;</span> ,xs[<span class="op">-</span><span class="dv">1</span>], <span class="st">&quot;with final loss: &quot;</span>, [losses[<span class="op">-</span><span class="dv">1</span>]])</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;MLE estimate for the mean: &quot;</span>, mean_mle, std_mle, <span class="st">&quot;with loss: &quot;</span>, loss_fun(torch.tensor([mean_mle, std_mle])))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The final estimate for lr = 0.02:  [1.5146049 3.6886444] with final loss:  [2.7506263256073]
+The final estimate for lr = 0.1:  [2.7874818 3.5309286] with final loss:  [2.677919626235962]
+MLE estimate for the mean:  2.9060876 3.5198097 with loss:  tensor(2.6773)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="58">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> torch.tensor([<span class="fl">0.1</span>, <span class="fl">2.5</span>])</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>xs1, losses1 <span class="op">=</span> optimiser(loss_fun, x, learning_rate <span class="op">=</span> <span class="fl">0.020</span>, num_iterations <span class="op">=</span> <span class="dv">400</span>)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>( <span class="st">&quot;The final estimate for lr = 0.02: &quot;</span> ,xs1[<span class="op">-</span><span class="dv">1</span>], <span class="st">&quot;with final loss: &quot;</span>, [losses1[<span class="op">-</span><span class="dv">1</span>]])</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>xs2, losses2 <span class="op">=</span> optimiser(loss_fun, x, learning_rate <span class="op">=</span> <span class="fl">0.100</span>, num_iterations <span class="op">=</span> <span class="dv">400</span>)</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>( <span class="st">&quot;The final estimate for lr = 0.1: &quot;</span> ,xs2[<span class="op">-</span><span class="dv">1</span>], <span class="st">&quot;with final loss: &quot;</span>, [losses2[<span class="op">-</span><span class="dv">1</span>]])</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>mle_loss <span class="op">=</span> loss_fun(torch.tensor([mean_mle, std_mle]))</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;MLE estimate for the mean: &quot;</span>, mean_mle, std_mle, <span class="st">&quot;with loss: &quot;</span>, mle_loss)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The final estimate for lr = 0.02:  [1.5146049 3.6886444] with final loss:  [2.7506263256073]
+The final estimate for lr = 0.1:  [2.7874818 3.5309286] with final loss:  [2.677919626235962]
+MLE estimate for the mean:  2.9060876 3.5198097 with loss:  tensor(2.6773)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="64">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">12</span>,<span class="dv">4</span>))</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].plot(losses2, color <span class="op">=</span> <span class="st">&#39;red&#39;</span>)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_xlabel(<span class="st">&#39;Iteration&#39;</span>)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_ylabel(<span class="st">&#39;Loss&#39;</span>)</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_title(<span class="st">&#39;Loss Convergence&#39;</span>)</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].hlines(mle_loss, <span class="dv">0</span>, <span class="bu">len</span>(losses2), color <span class="op">=</span> <span class="st">&quot;red&quot;</span>, linestyle <span class="op">=</span> <span class="st">&quot;dashed&quot;</span>, label <span class="op">=</span> <span class="st">&quot;mle_loss = &quot;</span> <span class="op">+</span> <span class="bu">str</span>(mle_loss))</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].legend()</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the path taken by theta during optimization</span></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].plot([x[<span class="dv">0</span>] <span class="cf">for</span> x <span class="kw">in</span> xs2], color <span class="op">=</span> <span class="st">&quot;green&quot;</span>, label <span class="op">=</span> <span class="st">&quot;loc&quot;</span>)</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].plot([x[<span class="dv">1</span>] <span class="cf">for</span> x <span class="kw">in</span> xs2], color <span class="op">=</span> <span class="st">&quot;blue&quot;</span>, label <span class="op">=</span> <span class="st">&quot;scale&quot;</span>)</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].hlines(mean_mle, <span class="dv">0</span>, <span class="bu">len</span>(losses2), color <span class="op">=</span> <span class="st">&quot;green&quot;</span>, linestyle <span class="op">=</span> <span class="st">&quot;dashed&quot;</span>, label <span class="op">=</span> <span class="st">&quot;loc = &quot;</span> <span class="op">+</span> <span class="st">&quot;</span><span class="sc">{:.2f}</span><span class="st">&quot;</span>.<span class="bu">format</span>(mean_mle.item()))</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].hlines(std_mle, <span class="dv">0</span>, <span class="bu">len</span>(losses2), color <span class="op">=</span> <span class="st">&quot;blue&quot;</span>, linestyle <span class="op">=</span> <span class="st">&quot;dashed&quot;</span>, label <span class="op">=</span> <span class="st">&quot;scale = &quot;</span> <span class="op">+</span> <span class="st">&quot;</span><span class="sc">{:.2f}</span><span class="st">&quot;</span>.<span class="bu">format</span>(std_mle.item()))</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].legend()</span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_title(<span class="st">&#39;Convergence Plot&#39;</span>)</span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ed9ae950cb784350ac0b48e74432e2f2/58b0a139b3f9a8f00f32c49f3c2b396fd532f5b3.png" /></p>
+</div>
+</div>
+<section id="c-log-scale" class="cell markdown">
+<h3>c) Log scale</h3>
+</section>
+<div class="cell code" data-execution_count="65">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Defining the function to be optimized</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> true_samples</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> sp_loss_fun(x):</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>    dist <span class="op">=</span> torch.distributions.Normal(loc <span class="op">=</span> x[<span class="dv">0</span>], scale <span class="op">=</span> x[<span class="dv">1</span>].exp())</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="op">-</span>dist.log_prob(data).mean()</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> sp_log_likelihood(data, loc, scale):</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>    dist <span class="op">=</span> torch.distributions.Normal(loc, scale.exp())</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> dist.log_prob(data).mean()</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Defining the function to be optimized</span></span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> true_samples</span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> loss_fun(x):</span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>    dist <span class="op">=</span> torch.distributions.Normal(loc <span class="op">=</span> x[<span class="dv">0</span>], scale <span class="op">=</span> x[<span class="dv">1</span>])</span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="op">-</span>dist.log_prob(data).mean()</span>
+<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a><span class="co"># The varaiable tensor, whose operations are to be stored x = [loc, log_scale]</span></span>
+<span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> torch.tensor([<span class="fl">0.0</span>, <span class="fl">0.5</span>])</span>
+<span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> optimiser(loss_fun, x_init, learning_rate, num_iterations):</span>
+<span id="cb19-22"><a href="#cb19-22" aria-hidden="true" tabindex="-1"></a>    xs <span class="op">=</span> []</span>
+<span id="cb19-23"><a href="#cb19-23" aria-hidden="true" tabindex="-1"></a>    losses <span class="op">=</span> []</span>
+<span id="cb19-24"><a href="#cb19-24" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> x_init.clone().requires_grad_(<span class="va">True</span>)</span>
+<span id="cb19-25"><a href="#cb19-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(num_iterations):</span>
+<span id="cb19-26"><a href="#cb19-26" aria-hidden="true" tabindex="-1"></a>        loss <span class="op">=</span> loss_fun(x)</span>
+<span id="cb19-27"><a href="#cb19-27" aria-hidden="true" tabindex="-1"></a>        loss.backward()</span>
+<span id="cb19-28"><a href="#cb19-28" aria-hidden="true" tabindex="-1"></a>        xs.append(x.detach().numpy().copy())</span>
+<span id="cb19-29"><a href="#cb19-29" aria-hidden="true" tabindex="-1"></a>        losses.append(loss.item())</span>
+<span id="cb19-30"><a href="#cb19-30" aria-hidden="true" tabindex="-1"></a>        x.data <span class="op">=</span> x.data <span class="op">-</span> learning_rate <span class="op">*</span> x.grad</span>
+<span id="cb19-31"><a href="#cb19-31" aria-hidden="true" tabindex="-1"></a>        x.grad.zero_()</span>
+<span id="cb19-32"><a href="#cb19-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> xs, losses</span>
+<span id="cb19-33"><a href="#cb19-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-34"><a href="#cb19-34" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> log_plot_path(lr1, lr2, num1, num2, x_start, loss_fun<span class="op">=</span> loss_fun,marker <span class="op">=</span> <span class="va">None</span>,loc_range <span class="op">=</span> <span class="va">None</span>, log_scale_range <span class="op">=</span> <span class="va">None</span>):</span>
+<span id="cb19-35"><a href="#cb19-35" aria-hidden="true" tabindex="-1"></a>    xs, losses <span class="op">=</span> optimiser(sp_loss_fun, x_init <span class="op">=</span> x_start, learning_rate <span class="op">=</span> lr1, num_iterations <span class="op">=</span> num1)</span>
+<span id="cb19-36"><a href="#cb19-36" aria-hidden="true" tabindex="-1"></a>    xs2, losses2 <span class="op">=</span> optimiser(sp_loss_fun, x_init <span class="op">=</span> x_start, learning_rate <span class="op">=</span> lr2, num_iterations <span class="op">=</span> num2)</span>
+<span id="cb19-37"><a href="#cb19-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-38"><a href="#cb19-38" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> loc_range <span class="op">==</span> <span class="va">None</span>:</span>
+<span id="cb19-39"><a href="#cb19-39" aria-hidden="true" tabindex="-1"></a>        loc_range <span class="op">=</span> torch.linspace(<span class="dv">0</span>, <span class="dv">4</span>, <span class="dv">100</span>)</span>
+<span id="cb19-40"><a href="#cb19-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> log_scale_range <span class="op">==</span> <span class="va">None</span>:</span>
+<span id="cb19-41"><a href="#cb19-41" aria-hidden="true" tabindex="-1"></a>        log_scale_range <span class="op">=</span> torch.linspace(np.log(<span class="fl">0.2</span>), np.log(<span class="dv">1500</span>), <span class="dv">100</span>)</span>
+<span id="cb19-42"><a href="#cb19-42" aria-hidden="true" tabindex="-1"></a>    loc_grid, scale_grid <span class="op">=</span> torch.meshgrid(loc_range, log_scale_range)</span>
+<span id="cb19-43"><a href="#cb19-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-44"><a href="#cb19-44" aria-hidden="true" tabindex="-1"></a>    log_likelihood_grid <span class="op">=</span> torch.zeros_like(loc_grid)</span>
+<span id="cb19-45"><a href="#cb19-45" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(loc_range)):</span>
+<span id="cb19-46"><a href="#cb19-46" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(log_scale_range)):</span>
+<span id="cb19-47"><a href="#cb19-47" aria-hidden="true" tabindex="-1"></a>            log_likelihood_grid[i, j] <span class="op">=</span> sp_log_likelihood(true_samples, loc_grid[i, j], scale_grid[i, j])</span>
+<span id="cb19-48"><a href="#cb19-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-49"><a href="#cb19-49" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plotting the loss curve</span></span>
+<span id="cb19-50"><a href="#cb19-50" aria-hidden="true" tabindex="-1"></a>    fig, ax <span class="op">=</span> plt.subplots(<span class="dv">2</span>,<span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">12</span>,<span class="dv">8</span>))</span>
+<span id="cb19-51"><a href="#cb19-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-52"><a href="#cb19-52" aria-hidden="true" tabindex="-1"></a>    contour <span class="op">=</span> ax[<span class="dv">0</span>,<span class="dv">0</span>].contourf(loc_grid, scale_grid, log_likelihood_grid, levels<span class="op">=</span><span class="dv">20</span>, cmap<span class="op">=</span><span class="st">&#39;viridis&#39;</span>)</span>
+<span id="cb19-53"><a href="#cb19-53" aria-hidden="true" tabindex="-1"></a>    contour2 <span class="op">=</span> ax[<span class="dv">0</span>,<span class="dv">1</span>].contourf(loc_grid, scale_grid, log_likelihood_grid, levels<span class="op">=</span><span class="dv">20</span>, cmap<span class="op">=</span><span class="st">&#39;viridis&#39;</span>)</span>
+<span id="cb19-54"><a href="#cb19-54" aria-hidden="true" tabindex="-1"></a>    plt.colorbar(contour, label<span class="op">=</span><span class="st">&#39;Log-Likelihood&#39;</span>)</span>
+<span id="cb19-55"><a href="#cb19-55" aria-hidden="true" tabindex="-1"></a>    plt.colorbar(contour2, label<span class="op">=</span><span class="st">&#39;Log-Likelihood&#39;</span>)</span>
+<span id="cb19-56"><a href="#cb19-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-57"><a href="#cb19-57" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plotting the path taken by theta during optimization</span></span>
+<span id="cb19-58"><a href="#cb19-58" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">0</span>].plot([x[<span class="dv">0</span>] <span class="cf">for</span> x <span class="kw">in</span> xs], [x[<span class="dv">1</span>] <span class="cf">for</span> x <span class="kw">in</span> xs], marker<span class="op">=</span><span class="st">&#39;o&#39;</span>, markersize<span class="op">=</span><span class="dv">5</span>, color <span class="op">=</span> <span class="st">&quot;red&quot;</span>)</span>
+<span id="cb19-59"><a href="#cb19-59" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">1</span>].plot([x[<span class="dv">0</span>] <span class="cf">for</span> x <span class="kw">in</span> xs2], [x[<span class="dv">1</span>] <span class="cf">for</span> x <span class="kw">in</span> xs2], marker<span class="op">=</span><span class="st">&#39;o&#39;</span>, markersize<span class="op">=</span><span class="dv">5</span>, color <span class="op">=</span> <span class="st">&quot;red&quot;</span>)</span>
+<span id="cb19-60"><a href="#cb19-60" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">0</span>].set_xlabel(<span class="st">&#39;loc&#39;</span>)<span class="op">;</span> ax[<span class="dv">0</span>,<span class="dv">1</span>].set_xlabel(<span class="st">&#39;loc&#39;</span>)</span>
+<span id="cb19-61"><a href="#cb19-61" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">0</span>].set_ylabel(<span class="st">&#39;log_scale&#39;</span>)<span class="op">;</span> ax[<span class="dv">0</span>,<span class="dv">1</span>].set_ylabel(<span class="st">&#39;log_scale&#39;</span>)</span>
+<span id="cb19-62"><a href="#cb19-62" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">0</span>].set_title(<span class="st">&#39;Optimisation path for lr = &#39;</span><span class="op">+</span> <span class="bu">str</span>(lr1))<span class="op">;</span> ax[<span class="dv">0</span>,<span class="dv">1</span>].set_title(<span class="st">&#39;Optimisation path for lr = &#39;</span><span class="op">+</span> <span class="bu">str</span>(lr2))</span>
+<span id="cb19-63"><a href="#cb19-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-64"><a href="#cb19-64" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Markers</span></span>
+<span id="cb19-65"><a href="#cb19-65" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">0</span>].plot(true_loc, true_scale, <span class="st">&#39;b*&#39;</span>, markersize<span class="op">=</span><span class="dv">10</span>, label <span class="op">=</span> <span class="st">&quot;true&quot;</span>)<span class="op">;</span> </span>
+<span id="cb19-66"><a href="#cb19-66" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">1</span>].plot(true_loc, true_scale, <span class="st">&#39;b*&#39;</span>, markersize<span class="op">=</span><span class="dv">10</span>, label <span class="op">=</span> <span class="st">&quot;true&quot;</span>)</span>
+<span id="cb19-67"><a href="#cb19-67" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">0</span>].plot(mean_mle, np.log(std_mle), <span class="st">&#39;w*&#39;</span>, markersize<span class="op">=</span><span class="dv">10</span>, label <span class="op">=</span> <span class="st">&quot;mle&quot;</span>)<span class="op">;</span> ax[<span class="dv">0</span>,<span class="dv">0</span>].legend()</span>
+<span id="cb19-68"><a href="#cb19-68" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">0</span>,<span class="dv">1</span>].plot(mean_mle, np.log(std_mle), <span class="st">&#39;w*&#39;</span>, markersize<span class="op">=</span><span class="dv">10</span>, label <span class="op">=</span> <span class="st">&quot;mle&quot;</span>)<span class="op">;</span> ax[<span class="dv">1</span>,<span class="dv">0</span>].legend()</span>
+<span id="cb19-69"><a href="#cb19-69" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plotting the loss curve</span></span>
+<span id="cb19-70"><a href="#cb19-70" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">1</span>,<span class="dv">0</span>].plot(losses, marker<span class="op">=</span>marker, color <span class="op">=</span> <span class="st">&quot;blue&quot;</span>)</span>
+<span id="cb19-71"><a href="#cb19-71" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">1</span>,<span class="dv">0</span>].set_xlabel(<span class="st">&#39;Iteration&#39;</span>)</span>
+<span id="cb19-72"><a href="#cb19-72" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">1</span>,<span class="dv">0</span>].set_ylabel(<span class="st">&#39;Loss&#39;</span>)</span>
+<span id="cb19-73"><a href="#cb19-73" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">1</span>,<span class="dv">1</span>].plot(losses2, marker<span class="op">=</span>marker, color <span class="op">=</span> <span class="st">&quot;blue&quot;</span>)</span>
+<span id="cb19-74"><a href="#cb19-74" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">1</span>,<span class="dv">1</span>].set_xlabel(<span class="st">&#39;Iteration&#39;</span>)</span>
+<span id="cb19-75"><a href="#cb19-75" aria-hidden="true" tabindex="-1"></a>    ax[<span class="dv">1</span>,<span class="dv">1</span>].set_ylabel(<span class="st">&#39;Loss&#39;</span>)</span>
+<span id="cb19-76"><a href="#cb19-76" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="131">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> torch.tensor([<span class="fl">0.0</span>, np.log(<span class="dv">1</span>)])</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="co"># x = torch.tensor([0.0, 4.0])</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co"># x = torch.tensor([1.5, 8.0])</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>log_plot_path(lr1<span class="op">=</span> <span class="fl">1e-1</span>, lr2 <span class="op">=</span> <span class="fl">5e-3</span>, num1 <span class="op">=</span> <span class="dv">400</span>, num2 <span class="op">=</span> <span class="dv">400</span>, x_start <span class="op">=</span> x, marker <span class="op">=</span> <span class="va">None</span>,loc_range <span class="op">=</span> <span class="va">None</span>, log_scale_range <span class="op">=</span> <span class="va">None</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ed9ae950cb784350ac0b48e74432e2f2/7eeb17b4d74944380b12ab8640d61665ba576fad.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="67">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> torch.tensor([<span class="fl">0.1</span>, np.log(<span class="fl">2.5</span>)])</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>xs1, losses1 <span class="op">=</span> optimiser(sp_loss_fun, x, learning_rate <span class="op">=</span> <span class="fl">0.020</span>, num_iterations <span class="op">=</span> <span class="dv">400</span>)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>( <span class="st">&quot;The final estimate for lr = 0.02: &quot;</span> ,(xs1[<span class="op">-</span><span class="dv">1</span>][<span class="dv">0</span>], np.exp(xs1[<span class="op">-</span><span class="dv">1</span>][<span class="dv">1</span>])), <span class="st">&quot;with final loss: &quot;</span>, [losses1[<span class="op">-</span><span class="dv">1</span>]])</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>xs2, losses2 <span class="op">=</span> optimiser(sp_loss_fun, x, learning_rate <span class="op">=</span> <span class="fl">0.100</span>, num_iterations <span class="op">=</span> <span class="dv">400</span>)</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>( <span class="st">&quot;The final estimate for lr = 0.1: &quot;</span> ,(xs2[<span class="op">-</span><span class="dv">1</span>][<span class="dv">0</span>], np.exp(xs2[<span class="op">-</span><span class="dv">1</span>][<span class="dv">1</span>])), <span class="st">&quot;with final loss: &quot;</span>, [losses2[<span class="op">-</span><span class="dv">1</span>]])</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;MLE estimate for the mean: &quot;</span>, mean_mle, std_mle, <span class="st">&quot;with loss: &quot;</span>, loss_fun(torch.tensor([mean_mle, std_mle])))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The final estimate for lr = 0.02:  (1.1767749974131592, 3.947341294637169) with final loss:  [2.785501003265381]
+The final estimate for lr = 0.1:  (2.7579340795986336, 3.523198082662908) with final loss:  [2.6782305240631104]
+MLE estimate for the mean:  2.9060876 3.5198097 with loss:  tensor(2.6773)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="71">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">12</span>,<span class="dv">4</span>))</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].plot(losses2, color <span class="op">=</span> <span class="st">&#39;red&#39;</span>)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_xlabel(<span class="st">&#39;Iteration&#39;</span>)</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_ylabel(<span class="st">&#39;Loss&#39;</span>)</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_title(<span class="st">&#39;Loss Convergence&#39;</span>)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].hlines(mle_loss, <span class="dv">0</span>, <span class="bu">len</span>(losses2), color <span class="op">=</span> <span class="st">&quot;red&quot;</span>, linestyle <span class="op">=</span> <span class="st">&quot;dashed&quot;</span>, label <span class="op">=</span> <span class="st">&quot;mle_loss = &quot;</span> <span class="op">+</span> <span class="bu">str</span>(mle_loss))</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].legend()</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the path taken by theta during optimization</span></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].plot([x[<span class="dv">0</span>] <span class="cf">for</span> x <span class="kw">in</span> xs2], color <span class="op">=</span> <span class="st">&quot;green&quot;</span>, label <span class="op">=</span> <span class="st">&quot;loc&quot;</span>)</span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].plot([x[<span class="dv">1</span>] <span class="cf">for</span> x <span class="kw">in</span> xs2], color <span class="op">=</span> <span class="st">&quot;blue&quot;</span>, label <span class="op">=</span> <span class="st">&quot;log scale&quot;</span>)</span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].hlines(mean_mle, <span class="dv">0</span>, <span class="bu">len</span>(losses2), color <span class="op">=</span> <span class="st">&quot;green&quot;</span>, linestyle <span class="op">=</span> <span class="st">&quot;dashed&quot;</span>, label <span class="op">=</span> <span class="st">&quot;loc = &quot;</span> <span class="op">+</span> <span class="st">&quot;</span><span class="sc">{:.2f}</span><span class="st">&quot;</span>.<span class="bu">format</span>(mean_mle.item()))</span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].hlines(np.log(std_mle), <span class="dv">0</span>, <span class="bu">len</span>(losses2), color <span class="op">=</span> <span class="st">&quot;blue&quot;</span>, linestyle <span class="op">=</span> <span class="st">&quot;dashed&quot;</span>, label <span class="op">=</span> <span class="st">&quot;scale = &quot;</span> <span class="op">+</span> <span class="st">&quot;</span><span class="sc">{:.2f}</span><span class="st">&quot;</span>.<span class="bu">format</span>(np.log(std_mle.item())))</span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].legend()</span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_title(<span class="st">&#39;Convergence Plot&#39;</span>)</span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ed9ae950cb784350ac0b48e74432e2f2/33377a94f05c7fe7d50fe35723af1054d9cfedfd.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Why does optimising scale on logarithmic scale help? In this
+particular function it is because the scale factor varies in a
+logarithmic scale rather than on a linear scale. Evident by the contour
+plotof the function and its formulae.</p>
+<p><span class="math display">$$
+logloss = \sum_{i=1}^{n} -log(\sigma \sqrt{2\pi}) + \frac{(y_i -
+\mu)^2}{2\sigma^2}
+$$</span></p>
+<p>The logarithmic scale for the scale parameter helps to make it linear
+.</p>
+<hr />
+</div>
+<section id="q3" class="cell markdown">
+<h3>Q3</h3>
+<p>Generate some data (1000 data points) using a univariate Normal
+distribution with loc=2.0 and scale=4.0 and using Student-T
+distributions with varying degrees (from 1-8) of freedom (1000 data
+points corresponding to each degree of freedom). Plot the pdf (and
+logpdf) at uniformly spaced data from (-50, 50) in steps of 0.1. What
+can you conclude? [1 mark]</p>
+<hr />
+</section>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Generating the Data</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.distributions <span class="im">as</span> dist</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>torch.manual_seed(<span class="dv">17</span>)</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>normal_loc <span class="op">=</span> <span class="fl">2.0</span></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>normal_scale <span class="op">=</span> <span class="fl">4.0</span></span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>normal_data <span class="op">=</span> np.random.normal(normal_loc, normal_scale, <span class="dv">1000</span>)</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate data from Student-T distributions with varying degrees of freedom</span></span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>degrees_of_freedom <span class="op">=</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="dv">9</span>)</span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>student_t_data <span class="op">=</span> []</span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> df <span class="kw">in</span> degrees_of_freedom:</span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a>    student_t_dist <span class="op">=</span> dist.StudentT(df, normal_loc, normal_scale)</span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a>    student_t_data.append(student_t_dist.sample([<span class="dv">1000</span>]).numpy().flatten())</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the histograms of the data # Does not work with seaborn</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">3</span>, <span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">15</span>), sharey <span class="op">=</span> <span class="va">True</span>, sharex <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Probability Histograms&quot;</span>)</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">0</span>].set_xlabel(<span class="st">&quot;x&quot;</span>)</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">0</span>].set_ylabel(<span class="st">&quot;PDF&quot;</span>)</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>x_values <span class="op">=</span> np.arange(<span class="op">-</span><span class="dv">50</span>, <span class="dv">50</span>, <span class="fl">0.1</span>)</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">0</span>].hist(normal_data, density<span class="op">=</span><span class="va">True</span>, label<span class="op">=</span><span class="st">&quot;Normal&quot;</span>, <span class="bu">range</span> <span class="op">=</span> (<span class="op">-</span><span class="dv">50</span>,<span class="dv">50</span>), bins <span class="op">=</span> <span class="dv">1000</span>)</span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">0</span>].legend()<span class="op">;</span>  ax[<span class="dv">0</span>,<span class="dv">0</span>].grid()</span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> df, student_t_samples <span class="kw">in</span> <span class="bu">zip</span>(degrees_of_freedom, student_t_data):</span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a>    row <span class="op">=</span> (df)<span class="op">//</span><span class="dv">3</span></span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>    col <span class="op">=</span> (df)<span class="op">%</span><span class="dv">3</span></span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a>    ax[row, col].hist(student_t_samples, density<span class="op">=</span><span class="va">True</span>, label<span class="op">=</span><span class="ss">f&quot;Student-T df=</span><span class="sc">{</span>df<span class="sc">}</span><span class="ss">&quot;</span>, <span class="bu">range</span> <span class="op">=</span> (<span class="op">-</span><span class="dv">50</span>,<span class="dv">50</span>), bins <span class="op">=</span> <span class="dv">1000</span>)</span>
+<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a>    ax[row, col].legend()<span class="op">;</span> ax[row, col].grid()</span>
+<span id="cb26-17"><a href="#cb26-17" aria-hidden="true" tabindex="-1"></a>    ax[row, col].set_xlabel(<span class="st">&quot;x&quot;</span>)</span>
+<span id="cb26-18"><a href="#cb26-18" aria-hidden="true" tabindex="-1"></a>    ax[row, col].set_ylabel(<span class="st">&quot;PDF&quot;</span>)</span>
+<span id="cb26-19"><a href="#cb26-19" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">1</span>].set_title(<span class="st">&quot;Data Histograms&quot;</span>)</span>
+<span id="cb26-20"><a href="#cb26-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-21"><a href="#cb26-21" aria-hidden="true" tabindex="-1"></a>plt.plot()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<pre><code>[]</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ed9ae950cb784350ac0b48e74432e2f2/e8da00c972573d70766a09833869876c5a4c0f57.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the histograms of the data</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">3</span>, <span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">15</span>), sharey <span class="op">=</span> <span class="va">True</span>, sharex <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Probability Histograms&quot;</span>)</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">0</span>].set_xlabel(<span class="st">&quot;x&quot;</span>)</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">0</span>].set_ylabel(<span class="st">&quot;log PDF&quot;</span>)</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>x_values <span class="op">=</span> np.arange(<span class="op">-</span><span class="dv">50</span>, <span class="dv">50</span>, <span class="fl">0.1</span>)</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">0</span>].hist(normal_data, density<span class="op">=</span><span class="va">True</span>, label<span class="op">=</span><span class="st">&quot;Normal&quot;</span>, <span class="bu">range</span> <span class="op">=</span> (<span class="op">-</span><span class="dv">50</span>,<span class="dv">50</span>), bins <span class="op">=</span> <span class="dv">1000</span>)</span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">0</span>].legend()<span class="op">;</span> ax[<span class="dv">0</span>,<span class="dv">0</span>].grid()</span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> df, student_t_samples <span class="kw">in</span> <span class="bu">zip</span>(degrees_of_freedom, student_t_data):</span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a>    row <span class="op">=</span> (df)<span class="op">//</span><span class="dv">3</span></span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a>    col <span class="op">=</span> (df)<span class="op">%</span><span class="dv">3</span></span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a>    ax[row, col].hist(student_t_samples, density<span class="op">=</span><span class="va">True</span>, label<span class="op">=</span><span class="ss">f&quot;Student-T df=</span><span class="sc">{</span>df<span class="sc">}</span><span class="ss">&quot;</span>, <span class="bu">range</span> <span class="op">=</span> (<span class="op">-</span><span class="dv">50</span>,<span class="dv">50</span>), bins <span class="op">=</span> <span class="dv">1000</span>, log <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a>    ax[row, col].legend()<span class="op">;</span> ax[row, col].grid()</span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a>    ax[row, col].set_xlabel(<span class="st">&quot;x&quot;</span>)</span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a>    ax[row, col].set_ylabel(<span class="st">&quot;log PDF&quot;</span>)</span>
+<span id="cb28-19"><a href="#cb28-19" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb28-20"><a href="#cb28-20" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">1</span>].set_title(<span class="st">&quot;Data Log Histograms&quot;</span>)</span>
+<span id="cb28-21"><a href="#cb28-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-22"><a href="#cb28-22" aria-hidden="true" tabindex="-1"></a>plt.plot()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<pre><code>[]</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ed9ae950cb784350ac0b48e74432e2f2/981b677d482d171a8dc1db7f959abec543769372.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<hr />
+<h2 id="conclusion">Conclusion:</h2>
+<p>From this we can conclude that the student t distibution approaches
+(becomes more like) the normal distribution on increasint the value of
+the degrees of freedom.</p>
+<p>Also:</p>
+<p><span class="math display">$$
+p(t) \propto \biggl(1 + \frac{t^2}{v} \biggr)^{-\frac{v+1}{2}}
+$$</span></p>
+<p>where <span class="math inline"><em>v</em></span> is the degrees of
+freedom.</p>
+<p>also:</p>
+<p><span
+class="math display">lim<sub><em>x</em> → <em>a</em></sub>(1+<em>f</em>(<em>x</em>))<sup><em>g</em>(<em>x</em>)</sup> = <em>e</em><sup>lim<sub><em>x</em> → <em>a</em></sub><em>f</em>(<em>x</em>)<em>g</em>(<em>x</em>)</sup> <em>i</em><em>f</em> lim<sub><em>x</em> → <em>a</em></sub><em>f</em>(<em>x</em>) = 0 <em>a</em><em>n</em><em>d</em> lim<sub><em>x</em> → <em>a</em></sub><em>g</em>(<em>x</em>) = ∞</span></p>
+<p>Hense, for large values of <span
+class="math inline"><em>v</em></span> we can approximate the student t
+distribution as:</p>
+<p><span class="math display">$$
+p(t) \propto \biggl(1 + \frac{t^2}{v} \biggr)^{-\frac{v+1}{2}} \approx
+e^{-\frac{t^2}{2}}
+$$</span></p>
+<p>Which is the normal distribution.</p>
+<p>Also, for <span class="math inline"><em>v</em> = 1</span>, the
+student t distribution is the Cauchy distribution.</p>
+<p><span class="math display">$$
+p(t) = \frac{1}{\pi} \frac{1}{1 + t^2}
+$$</span></p>
+<hr />
+</div>
+<div class="cell markdown">
+<h3 id="q4">Q4</h3>
+<p>Analytically derive the MLE for exponential distribution. Generate
+some data (1000 data points) using some fixed parameter values and see
+if you can recover the analytical parameters using gradient descent
+based solution for obtaining MLE. [1 mark]</p>
+<h3 id="a4">A4:</h3>
+<p>The probability density function of exponential distribution is given
+by:</p>
+<p><span
+class="math display"><em>f</em>(<em>x</em>) = <em>λ</em><em>e</em><sup>−<em>λ</em><em>x</em></sup></span></p>
+<p>The likelihood function is given by:</p>
+<p><span class="math display">$$L(\lambda) = \prod_{i=1}^{n} \lambda
+e^{-\lambda x_i}$$</span></p>
+<p><span class="math display">$$L(\lambda) = \lambda^n e^{-\lambda
+\sum_{i=1}^{n} x_i}$$</span></p>
+<p><span class="math display">$$\ln L(\lambda) = n \ln \lambda - \lambda
+\sum_{i=1}^{n} x_i$$</span></p>
+<p><span class="math display">$$\frac{\partial \ln L(\lambda)}{\partial
+\lambda} = \frac{n}{\lambda} - \sum_{i=1}^{n} x_i$$</span></p>
+<p><span class="math display">$$\frac{\partial^2 \ln
+L(\lambda)}{\partial \lambda^2} = -\frac{n}{\lambda^2}$$</span></p>
+<p>The MLE is obtained by equating the first derivative to zero:</p>
+<p><span class="math display">$$\frac{n}{\lambda} - \sum_{i=1}^{n} x_i =
+0$$</span></p>
+<p><span class="math display">$$\lambda = \frac{n}{\sum_{i=1}^{n}
+x_i}$$</span></p>
+<p>The second derivative is negative, so the MLE is a maximum.</p>
+<p>In the following code, we generate 1000 data points from an
+exponential distribution with <span
+class="math inline"><em>λ</em> = 0.5</span> and then use gradient
+descent to find the MLE of <span
+class="math inline"><em>λ</em></span>.</p>
+</div>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.distributions <span class="im">as</span> dist</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>torch.manual_seed(<span class="dv">17</span>)</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Generating data from a exponential Distribution</span></span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>true_lamb <span class="op">=</span> <span class="fl">0.5</span></span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>true_dist <span class="op">=</span> dist.Exponential(true_lamb)</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>true_samples <span class="op">=</span> true_dist.sample((<span class="dv">1000</span>,))</span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a>ax.hist(true_samples.numpy(),density<span class="op">=</span><span class="va">True</span>, color <span class="op">=</span> <span class="st">&quot;green&quot;</span>, alpha <span class="op">=</span> <span class="fl">0.5</span>, bins <span class="op">=</span> <span class="dv">50</span>, label <span class="op">=</span> <span class="st">&quot;Histogram&quot;</span>)</span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>sns.kdeplot(true_samples.numpy(), bw_adjust<span class="op">=</span><span class="fl">0.75</span>, fill<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>ax, label <span class="op">=</span> <span class="st">&quot;Kde plot&quot;</span>)</span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">&quot;Histogram and KDE plot of the true distribution&quot;</span>)</span>
+<span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">&quot;Sample Value&quot;</span>)</span>
+<span id="cb30-14"><a href="#cb30-14" aria-hidden="true" tabindex="-1"></a>ax.legend()</span>
+<span id="cb30-15"><a href="#cb30-15" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ed9ae950cb784350ac0b48e74432e2f2/60e8f8b4b0f261cd6e0080c46ed1a860acb28eae.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Defining the function to be optimized</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> true_samples</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> loss_fun(x):</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>    distr <span class="op">=</span> dist.Exponential(x)</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="op">-</span>distr.log_prob(data).mean()</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a><span class="co"># The varaiable tensor, whose operations are to be stored, x = lambda</span></span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> torch.tensor([<span class="fl">1.0</span>])</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a>xs, losses <span class="op">=</span> optimiser(loss_fun, x, learning_rate <span class="op">=</span> <span class="fl">1e-1</span>, num_iterations <span class="op">=</span> <span class="dv">20</span>)</span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>xs2, losses2 <span class="op">=</span> optimiser(loss_fun, x, learning_rate <span class="op">=</span> <span class="fl">1e-2</span>, num_iterations <span class="op">=</span> <span class="dv">30</span>)</span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a>loc_range <span class="op">=</span> torch.linspace(<span class="dv">0</span>, <span class="dv">4</span>, <span class="dv">100</span>)</span>
+<span id="cb31-14"><a href="#cb31-14" aria-hidden="true" tabindex="-1"></a>scale_range <span class="op">=</span> torch.linspace(<span class="fl">0.5</span>, <span class="dv">18</span>, <span class="dv">100</span>)</span>
+<span id="cb31-15"><a href="#cb31-15" aria-hidden="true" tabindex="-1"></a>loc_grid, scale_grid <span class="op">=</span> torch.meshgrid(loc_range, scale_range)</span>
+<span id="cb31-16"><a href="#cb31-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-17"><a href="#cb31-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the loss curve</span></span>
+<span id="cb31-18"><a href="#cb31-18" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">2</span>,<span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">6</span>))</span>
+<span id="cb31-19"><a href="#cb31-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-20"><a href="#cb31-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the path taken by theta during optimization</span></span>
+<span id="cb31-21"><a href="#cb31-21" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">0</span>].plot(xs, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>, color <span class="op">=</span> <span class="st">&quot;green&quot;</span>)</span>
+<span id="cb31-22"><a href="#cb31-22" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">1</span>].plot(xs2, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>, color <span class="op">=</span> <span class="st">&quot;green&quot;</span>)</span>
+<span id="cb31-23"><a href="#cb31-23" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">0</span>].set_xlabel(<span class="st">&#39;Iteration&#39;</span>)<span class="op">;</span> ax[<span class="dv">0</span>,<span class="dv">1</span>].set_xlabel(<span class="st">&#39;Iteration&#39;</span>)</span>
+<span id="cb31-24"><a href="#cb31-24" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">0</span>].set_ylabel(<span class="st">&#39;Lambda&#39;</span>)<span class="op">;</span> ax[<span class="dv">0</span>,<span class="dv">1</span>].set_ylabel(<span class="st">&#39;Lambda&#39;</span>)</span>
+<span id="cb31-25"><a href="#cb31-25" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>,<span class="dv">0</span>].set_title(<span class="st">&#39;Optimisation path for lr = 1e-1&#39;</span>)<span class="op">;</span> ax[<span class="dv">0</span>,<span class="dv">1</span>].set_title(<span class="st">&#39;Optimisation path for lr = 1e-2&#39;</span>)</span>
+<span id="cb31-26"><a href="#cb31-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-27"><a href="#cb31-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the loss curve</span></span>
+<span id="cb31-28"><a href="#cb31-28" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>,<span class="dv">0</span>].plot(losses, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>, color <span class="op">=</span> <span class="st">&quot;red&quot;</span>)</span>
+<span id="cb31-29"><a href="#cb31-29" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>,<span class="dv">0</span>].set_xlabel(<span class="st">&#39;Iteration&#39;</span>)</span>
+<span id="cb31-30"><a href="#cb31-30" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>,<span class="dv">0</span>].set_ylabel(<span class="st">&#39;Loss&#39;</span>)</span>
+<span id="cb31-31"><a href="#cb31-31" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>,<span class="dv">1</span>].plot(losses2, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>, color <span class="op">=</span> <span class="st">&quot;red&quot;</span>)</span>
+<span id="cb31-32"><a href="#cb31-32" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>,<span class="dv">1</span>].set_xlabel(<span class="st">&#39;Iteration&#39;</span>)</span>
+<span id="cb31-33"><a href="#cb31-33" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>,<span class="dv">1</span>].set_ylabel(<span class="st">&#39;Loss&#39;</span>)</span>
+<span id="cb31-34"><a href="#cb31-34" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_ed9ae950cb784350ac0b48e74432e2f2/bf255b553ad1d1f72fac7e227b500a3de9a138e5.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="68">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Analytically Calculated Lambda:-</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Analytically Calculated Lambda:-&quot;</span>, <span class="st">&quot;</span><span class="sc">{:.5f}</span><span class="st">&quot;</span>.<span class="bu">format</span>(<span class="dv">1</span><span class="op">/</span>np.mean(true_samples.numpy())) )</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Analytically Calculated Lambda:- 0.47678
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="66">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using Multiple learning rates and 20 iterations</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>lrs <span class="op">=</span> [<span class="fl">1e-1</span>, <span class="fl">5e-2</span>, <span class="fl">2e-2</span>, <span class="fl">1e-2</span>, <span class="fl">5e-3</span>, <span class="fl">2e-3</span>]</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>num_iters <span class="op">=</span> [<span class="dv">20</span>, <span class="dv">20</span>, <span class="dv">20</span>, <span class="dv">20</span>, <span class="dv">40</span>, <span class="dv">40</span>]</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>dic <span class="op">=</span> {}</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> lr, num_iter <span class="kw">in</span> <span class="bu">zip</span>(lrs, num_iters):</span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> torch.tensor([<span class="fl">1.0</span>])</span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>    xs, losses <span class="op">=</span> optimiser(loss_fun, x, learning_rate <span class="op">=</span> lr, num_iterations <span class="op">=</span> num_iter)</span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>    dic[lr] <span class="op">=</span> (xs[<span class="op">-</span><span class="dv">1</span>].item(), losses[<span class="op">-</span><span class="dv">1</span>])</span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> pd.DataFrame.from_dict(dic, orient<span class="op">=</span><span class="st">&#39;index&#39;</span>, columns<span class="op">=</span>[<span class="st">&#39;Opt lamb&#39;</span>,<span class="st">&#39;loss&#39;</span>])</span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a>results</span></code></pre></div>
+<div class="output execute_result" data-execution_count="66">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Opt lamb</th>
+      <th>loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0.100</th>
+      <td>0.476827</td>
+      <td>1.740704</td>
+    </tr>
+    <tr>
+      <th>0.050</th>
+      <td>0.493872</td>
+      <td>1.741331</td>
+    </tr>
+    <tr>
+      <th>0.020</th>
+      <td>0.668664</td>
+      <td>1.804937</td>
+    </tr>
+    <tr>
+      <th>0.010</th>
+      <td>0.811700</td>
+      <td>1.911093</td>
+    </tr>
+    <tr>
+      <th>0.005</th>
+      <td>0.807884</td>
+      <td>1.907801</td>
+    </tr>
+    <tr>
+      <th>0.002</th>
+      <td>0.917757</td>
+      <td>2.010736</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<hr />
+<h3 id="q5">Q5</h3>
+<p>Generate some data (100 data points) using a univariate Normal
+distribution with loc=2.0 and scale=4.0. Now, create datasets of size
+10, 20, 50, 100, 500, 1000, 5000, 10000. We will use a different random
+seed to create ten different datasets for each of these sizes. For each
+of these datasets, find the MLE parameters for the loc and scale using
+gradient descent. Plot the estimates of loc and scale as a function of
+the dataset size. What can you conclude? [1 mark]</p>
+<p>We will be using learning rate = 0.10 and 1000 iterations for
+gradient descent.</p>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tqdm <span class="im">import</span> tqdm</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Generating the data and calculating the mean and varaince of the data</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>true_loc <span class="op">=</span> <span class="fl">2.0</span></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>true_scale <span class="op">=</span> <span class="fl">4.0</span></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>learning_rate <span class="op">=</span> <span class="fl">0.020</span></span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>num_iterations <span class="op">=</span> <span class="dv">400</span></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> torch.tensor([<span class="fl">0.0</span>, <span class="fl">2.0</span>])</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Generating the data</span></span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>sizes <span class="op">=</span> [<span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">50</span>, <span class="dv">100</span>, <span class="dv">500</span>, <span class="dv">1000</span>, <span class="dv">5000</span>, <span class="dv">10000</span>]</span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a>Estimates <span class="op">=</span> {}</span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> j <span class="kw">in</span> sizes:</span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a>    Estimates[j] <span class="op">=</span> []</span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a>true_dist <span class="op">=</span> dist.Normal(true_loc, true_scale)</span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-17"><a href="#cb35-17" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> tqdm(<span class="bu">range</span>(<span class="dv">10</span>)):</span>
+<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> j <span class="kw">in</span> sizes:</span>
+<span id="cb35-19"><a href="#cb35-19" aria-hidden="true" tabindex="-1"></a>        torch.manual_seed(i<span class="op">+</span>j)</span>
+<span id="cb35-20"><a href="#cb35-20" aria-hidden="true" tabindex="-1"></a>        true_samples <span class="op">=</span> true_dist.sample((j,))</span>
+<span id="cb35-21"><a href="#cb35-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-22"><a href="#cb35-22" aria-hidden="true" tabindex="-1"></a>        <span class="kw">def</span> new_loss_fun(x):</span>
+<span id="cb35-23"><a href="#cb35-23" aria-hidden="true" tabindex="-1"></a>            dist <span class="op">=</span> torch.distributions.Normal(loc <span class="op">=</span> x[<span class="dv">0</span>], scale <span class="op">=</span> x[<span class="dv">1</span>])</span>
+<span id="cb35-24"><a href="#cb35-24" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="op">-</span>dist.log_prob(true_samples).mean()</span>
+<span id="cb35-25"><a href="#cb35-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-26"><a href="#cb35-26" aria-hidden="true" tabindex="-1"></a>        xs, losses <span class="op">=</span> optimiser(new_loss_fun, x, learning_rate <span class="op">=</span> <span class="fl">0.10</span>, num_iterations <span class="op">=</span> <span class="dv">1000</span>)</span>
+<span id="cb35-27"><a href="#cb35-27" aria-hidden="true" tabindex="-1"></a>        Estimates[j].append([xs[<span class="op">-</span><span class="dv">1</span>][<span class="dv">0</span>], xs[<span class="op">-</span><span class="dv">1</span>][<span class="dv">1</span>]])</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>100%|██████████| 10/10 [00:21&lt;00:00,  2.18s/it]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>mean_estimates <span class="op">=</span> {}</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> j <span class="kw">in</span> sizes:</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>    mean_estimates[j] <span class="op">=</span> []</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>    loc_list <span class="op">=</span> []<span class="op">;</span> std_list <span class="op">=</span> []</span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10</span>):</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>        loc_list.append(Estimates[j][i][<span class="dv">0</span>])</span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>        std_list.append(Estimates[j][i][<span class="dv">1</span>])</span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>    mean_estimates[j].append(np.mean(np.array(loc_list)))</span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>    mean_estimates[j].append(np.std(np.array(loc_list)))</span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>    mean_estimates[j].append(np.mean(np.array(std_list)))</span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>    mean_estimates[j].append(np.std(np.array(std_list)))</span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(mean_estimates, index <span class="op">=</span> [<span class="st">&#39;loc&#39;</span>, <span class="st">&#39;std_loc&#39;</span>, <span class="st">&#39;std&#39;</span>, <span class="st">&#39;std_std&#39;</span>])</span>
+<span id="cb37-14"><a href="#cb37-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>            10        20        50        100       500       1000      5000   \
+loc      1.585901  2.543690  2.257605  1.714851  1.995445  2.025935  2.048942   
+std_loc  1.089790  0.527336  0.525339  0.472802  0.210362  0.067069  0.048850   
+std      3.692294  3.744772  4.056615  3.916501  4.017087  3.973100  4.012889   
+std_std  0.704695  0.439621  0.420956  0.208079  0.135794  0.084302  0.034018   
+
+            10000  
+loc      1.985947  
+std_loc  0.048535  
+std      4.003768  
+std_std  0.021502  
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>np.array(df.loc[<span class="st">&quot;loc&quot;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+<pre><code>array([1.5859007, 2.5436902, 2.257605 , 1.7148511, 1.9954453, 2.0259354,
+       2.0489419, 1.985947 ], dtype=float32)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Plotting the relation</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">2</span> , figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">5</span>))</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>npsizes <span class="op">=</span> np.array(sizes)<span class="op">;</span> nploc <span class="op">=</span> np.array(df.loc[<span class="st">&quot;loc&quot;</span>])<span class="op">;</span> npstdloc <span class="op">=</span> np.array(df.loc[<span class="st">&quot;std_loc&quot;</span>])</span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].plot(npsizes, nploc, <span class="st">&quot;-&quot;</span>)</span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_xlabel(<span class="st">&quot;Size of the array&quot;</span>)</span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_ylabel(<span class="st">&quot;Loc&quot;</span>)</span>
+<span id="cb41-9"><a href="#cb41-9" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].fill_between(npsizes, nploc <span class="op">-</span> npstdloc, nploc <span class="op">+</span> npstdloc, alpha<span class="op">=</span><span class="fl">0.2</span>)</span>
+<span id="cb41-10"><a href="#cb41-10" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_xscale(<span class="st">&quot;log&quot;</span>)<span class="op">;</span> ax[<span class="dv">0</span>].set_title(<span class="st">&quot;Loc vs Sample size&quot;</span>)</span>
+<span id="cb41-11"><a href="#cb41-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-12"><a href="#cb41-12" aria-hidden="true" tabindex="-1"></a>npstd <span class="op">=</span> np.array(df.loc[<span class="st">&quot;std&quot;</span>])<span class="op">;</span> npstdstd <span class="op">=</span> np.array(df.loc[<span class="st">&quot;std_std&quot;</span>])</span>
+<span id="cb41-13"><a href="#cb41-13" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].plot(npsizes, npstd, <span class="st">&quot;-&quot;</span>)</span>
+<span id="cb41-14"><a href="#cb41-14" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_xlabel(<span class="st">&quot;Size of the array&quot;</span>)</span>
+<span id="cb41-15"><a href="#cb41-15" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_ylabel(<span class="st">&quot;scale&quot;</span>)</span>
+<span id="cb41-16"><a href="#cb41-16" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].fill_between(npsizes, npstd <span class="op">-</span> npstdstd, npstd <span class="op">+</span> npstdstd, alpha<span class="op">=</span><span class="fl">0.2</span>)</span>
+<span id="cb41-17"><a href="#cb41-17" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_xscale(<span class="st">&quot;log&quot;</span>)<span class="op">;</span> ax[<span class="dv">1</span>].set_title(<span class="st">&quot;Scale vs Sample size&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="14">
+<pre><code>Text(0.5, 1.0, &#39;Scale vs Sample size&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ed9ae950cb784350ac0b48e74432e2f2/23eac39971f0d394661ec6a148fdd3d733b4dcc9.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<hr />
+<h2 id="conclusion-">Conclusion:-</h2>
+<p>The variance of the calculated maximum likelihood parameters keeps on
+decreasing. With more data points, the optimization process has more
+information to work with, leading to more precise parameter estimates.
+This experiment demonstrates the importance of having larger datasets
+for accurate parameter estimation.</p>
+</div>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>Mle_Estimates <span class="op">=</span> {}</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> j <span class="kw">in</span> sizes:</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>    Mle_Estimates[j] <span class="op">=</span> []</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> tqdm(<span class="bu">range</span>(<span class="dv">10</span>)): <span class="co"># tqdm(range(10))</span></span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> j <span class="kw">in</span> sizes:</span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a>        torch.manual_seed(i<span class="op">+</span>j)</span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a>        true_samples <span class="op">=</span> true_dist.sample((j,))</span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a>        Mle_Estimates[j].append([np.mean(true_samples.numpy()), np.std(true_samples.numpy())]) <span class="co"># Can directly add the MLE mean and variance</span></span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>100%|██████████| 10/10 [00:00&lt;00:00, 274.53it/s]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>mean_estimates <span class="op">=</span> {}</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> j <span class="kw">in</span> sizes:</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>    mean_estimates[j] <span class="op">=</span> []</span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>    loc_list <span class="op">=</span> []<span class="op">;</span> std_list <span class="op">=</span> []</span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10</span>):</span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a>        loc_list.append(Mle_Estimates[j][i][<span class="dv">0</span>])</span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>        std_list.append(Mle_Estimates[j][i][<span class="dv">1</span>])</span>
+<span id="cb45-8"><a href="#cb45-8" aria-hidden="true" tabindex="-1"></a>    mean_estimates[j].append(np.mean(np.array(loc_list)))</span>
+<span id="cb45-9"><a href="#cb45-9" aria-hidden="true" tabindex="-1"></a>    mean_estimates[j].append(np.std(np.array(loc_list)))</span>
+<span id="cb45-10"><a href="#cb45-10" aria-hidden="true" tabindex="-1"></a>    mean_estimates[j].append(np.mean(np.array(std_list)))</span>
+<span id="cb45-11"><a href="#cb45-11" aria-hidden="true" tabindex="-1"></a>    mean_estimates[j].append(np.std(np.array(std_list)))</span>
+<span id="cb45-12"><a href="#cb45-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-13"><a href="#cb45-13" aria-hidden="true" tabindex="-1"></a>mle_df <span class="op">=</span> pd.DataFrame(mean_estimates, index <span class="op">=</span> [<span class="st">&#39;loc&#39;</span>, <span class="st">&#39;std_loc&#39;</span>, <span class="st">&#39;std&#39;</span>, <span class="st">&#39;std_std&#39;</span>])</span>
+<span id="cb45-14"><a href="#cb45-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(mle_df)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>            10        20        50        100       500       1000      5000   \
+loc      1.587280  2.547516  2.264383  1.717096  1.998758  2.028804  2.052149   
+std_loc  1.090006  0.529892  0.528146  0.473433  0.210745  0.067324  0.048987   
+std      3.692424  3.744733  4.056543  3.916490  4.017070  3.973086  4.012873   
+std_std  0.705049  0.439590  0.420899  0.208075  0.135787  0.084298  0.034013   
+
+            10000  
+loc      1.988941  
+std_loc  0.048690  
+std      4.003751  
+std_std  0.021498  
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb47"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Plotting the relation</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">2</span> , figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">5</span>))</span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>npsizes <span class="op">=</span> np.array(sizes)<span class="op">;</span> nploc <span class="op">=</span> np.array(mle_df.loc[<span class="st">&quot;loc&quot;</span>])<span class="op">;</span> npstdloc <span class="op">=</span> np.array(mle_df.loc[<span class="st">&quot;std_loc&quot;</span>])</span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].plot(npsizes, nploc, <span class="st">&quot;-&quot;</span>)</span>
+<span id="cb47-7"><a href="#cb47-7" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_xlabel(<span class="st">&quot;Size of the array&quot;</span>)</span>
+<span id="cb47-8"><a href="#cb47-8" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_ylabel(<span class="st">&quot;Loc&quot;</span>)</span>
+<span id="cb47-9"><a href="#cb47-9" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].fill_between(npsizes, nploc <span class="op">-</span> npstdloc, nploc <span class="op">+</span> npstdloc, alpha<span class="op">=</span><span class="fl">0.2</span>)</span>
+<span id="cb47-10"><a href="#cb47-10" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">0</span>].set_xscale(<span class="st">&quot;log&quot;</span>)<span class="op">;</span> ax[<span class="dv">0</span>].set_title(<span class="st">&quot;Loc vs Sample size&quot;</span>)</span>
+<span id="cb47-11"><a href="#cb47-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-12"><a href="#cb47-12" aria-hidden="true" tabindex="-1"></a>npstd <span class="op">=</span> np.array(mle_df.loc[<span class="st">&quot;std&quot;</span>])<span class="op">;</span> npstdstd <span class="op">=</span> np.array(mle_df.loc[<span class="st">&quot;std_std&quot;</span>])</span>
+<span id="cb47-13"><a href="#cb47-13" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].plot(npsizes, npstd, <span class="st">&quot;-&quot;</span>)</span>
+<span id="cb47-14"><a href="#cb47-14" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_xlabel(<span class="st">&quot;Size of the array&quot;</span>)</span>
+<span id="cb47-15"><a href="#cb47-15" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_ylabel(<span class="st">&quot;scale&quot;</span>)</span>
+<span id="cb47-16"><a href="#cb47-16" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].fill_between(npsizes, npstd <span class="op">-</span> npstdstd, npstd <span class="op">+</span> npstdstd, alpha<span class="op">=</span><span class="fl">0.2</span>)</span>
+<span id="cb47-17"><a href="#cb47-17" aria-hidden="true" tabindex="-1"></a>ax[<span class="dv">1</span>].set_xscale(<span class="st">&quot;log&quot;</span>)<span class="op">;</span> ax[<span class="dv">1</span>].set_title(<span class="st">&quot;Scale vs Sample size&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="25">
+<pre><code>Text(0.5, 1.0, &#39;Scale vs Sample size&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_ed9ae950cb784350ac0b48e74432e2f2/1fc81d37c58cea75e4c1f4896c44944bdd91227d.png" /></p>
+</div>
+</div>
+</body>
+</html>
