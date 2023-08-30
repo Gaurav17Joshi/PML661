@@ -14594,10 +14594,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># Importing Dependencies</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
 <span class="n">sns</span><span class="o">.</span><span class="n">set_style</span><span class="p">(</span><span class="s1">&#39;whitegrid&#39;</span><span class="p">)</span>
 
-<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">celluloid</span>
+<span class="c1"># !pip install celluloid</span>
 <span class="kn">from</span> <span class="nn">celluloid</span> <span class="kn">import</span> <span class="n">Camera</span>
 
 <span class="kn">import</span> <span class="nn">torch</span>
@@ -14647,7 +14648,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <span class="k">def</span> <span class="nf">loss_fn</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">):</span>
     <span class="k">return</span> <span class="p">(((</span><span class="n">y</span><span class="o">-</span><span class="n">y_pred</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">variance</span><span class="p">))</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
 
-  <span class="n">batch_size</span> <span class="o">=</span> <span class="mi">10</span>   <span class="c1"># Trainig Batch Size</span>
+  <span class="n">batch_size</span> <span class="o">=</span> <span class="mi">10</span>   <span class="c1"># Training Batch Size</span>
   <span class="n">optimizer</span> <span class="o">=</span> <span class="n">optim</span><span class="o">.</span><span class="n">Adam</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">parameters</span><span class="p">(),</span> <span class="n">lr</span><span class="o">=</span><span class="n">lr</span><span class="p">)</span>
 
   <span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
@@ -16086,6 +16087,22 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Conclusion:-">Conclusion:-<a class="anchor-link" href="#Conclusion:-">&#182;</a></h3><p>The laplace prior is more robust to outliers as compared to the normal prior. This is because the laplace prior is more peaked at the mean and has a heavier tail as compared to the normal prior.</p>
+\begin{align}
+p(\theta) &amp;= \mathcal{L}(\theta|0, 1) = \frac{1}{2} exp(-\frac{|x-0|}{1})  \\
+p(\theta) &amp;= \mathcal{N}(\theta|0, 1) = \frac{1}{\sqrt{2\pi}} exp(-\frac{(x-0)^2}{1}) \\
+\end{align}<p>Laplace has a higher peak at 0, and a heavier tail (decays slower) as compared to the normal distribution. Hense it is similar to MLE, which is also more robust to ouliers hense, it converges to the MLE estimate faster.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Q4-%5B1.5-marks%5D">Q4 [1.5 marks]<a class="anchor-link" href="#Q4-%5B1.5-marks%5D">&#182;</a></h2><p>Generate a classification dataset with the following code (4.1).</p>
 <p>Find the MAP estimate for the parameters of logistic regression. Assume Normal prior with mean=0 and variance=0.1 for all parameters.</p>
 <p>Visualize the MLE and MAP classification boundaries. What do you observe? [1.5 marks]</p>
@@ -16438,6 +16455,18 @@ class="
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Conclusion:-">Conclusion:-<a class="anchor-link" href="#Conclusion:-">&#182;</a></h3><p>The MLE and MAP lines are very close as the number of data points is large, but we can see that the values of MAP are smaller in magnitude as the prior puts a loss conditon on the magnitude of the parameters</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
